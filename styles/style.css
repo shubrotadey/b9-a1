@@ -137,7 +137,7 @@ font-weight: 400;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: 
+     
 }
 .note p{
     color: #070211;
@@ -151,4 +151,77 @@ margin-bottom: 10px;
 }
 .note span{
     color: #F00;
+}
+.coming-soon{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.coming-soon div{
+    width: 30%;
+}
+.coming-soon .second img{
+    width: 100%;
+    border-radius: 100%;
+    
+    
+}
+.coming-soon .second{
+    border: 10px solid #F00;
+    padding: 15px;
+    border-radius: 100%;
+}
+.coming-soon .first h3{
+    color: #F00;
+    margin: 0;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.coming-soon .first h2{
+    color: #070211;
+    margin: 0;
+font-family: Merriweather;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.coming-soon .first p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.coming-soon .third {
+    padding-left: 30px;
+
+}
+.coming-soon .third h1{
+    color: #F00;
+margin: 0;
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.coming-soon .third p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.coming-soon .third img{
+    width: 50px;
+    margin-top: 20px;
 }
