@@ -34,7 +34,7 @@ header h1 {
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
-    
+
     margin: 0;
     /* 131.944% */
 }
@@ -79,11 +79,13 @@ header h1 {
     font-weight: 700;
     line-height: normal;
 }
-.category img{
+
+.category img {
     margin-top: 30px;
     width: 300px;
 }
-.welcome-banner{
+
+.welcome-banner {
     padding: 50px 50px;
     color: white;
     display: flex;
@@ -91,37 +93,42 @@ header h1 {
     background-image: url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+
 }
-.welcome-banner img{
+
+.welcome-banner img {
     display: table;
     margin: auto;
     width: 200px;
 }
-.welcome-banner div{
+
+.welcome-banner div {
     width: 70%;
 }
-.welcome-banner div h1{
+
+.welcome-banner div h1 {
     color: #FFF;
 
-font-family: Merriweather;
-font-size: 35px;
-font-style: normal;
-font-weight: 900;
-/* 137.5% */
-letter-spacing: 2px;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    /* 137.5% */
+    letter-spacing: 2px;
 
 }
-.welcome-banner div p{
+
+.welcome-banner div p {
     color: rgba(255, 255, 255, 0.80);
 
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
- /* 166.667% */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* 166.667% */
 }
-.welcome-banner div button{
+
+.welcome-banner div button {
     color: white;
     background: none;
     border: 0;
@@ -130,98 +137,214 @@ font-weight: 400;
     font-size: 17px;
     font-weight: 600;
 }
-.note{
+
+.note {
     width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     
+
 }
-.note p{
+
+.note p {
     color: #070211;
     margin: 0;
-font-family: Inter;
-font-size: 22px;
-font-style: normal;
-font-weight: 600;
-text-transform: capitalize;
-margin-bottom: 10px;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }
-.note span{
+
+.note span {
     color: #F00;
 }
-.coming-soon{
+
+.coming-soon {
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
+    align-items: center;
+    gap: 10px;
 }
-.coming-soon div{
+
+.coming-soon div {
     width: 30%;
 }
-.coming-soon .second img{
+
+.coming-soon .second img {
     width: 100%;
     border-radius: 100%;
-    
-    
+
+
 }
-.coming-soon .second{
+
+.coming-soon .second {
     border: 10px solid #F00;
     padding: 15px;
     border-radius: 100%;
 }
-.coming-soon .first h3{
+
+.coming-soon .first h3 {
     color: #F00;
     margin: 0;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.coming-soon .first h2{
+
+.coming-soon .first h2 {
     color: #070211;
     margin: 0;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.coming-soon .first p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.coming-soon .third {
+    padding-left: 30px;
+
+}
+
+.coming-soon .third h1 {
+    color: #F00;
+    margin: 0;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.coming-soon .third p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.coming-soon .third img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.holiday h4 {
+    color: #070211;
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.holiday h1 {
+    text-align: center;
+    margin: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday h1 span {
+    color: #F00;
+}
+
+.holiday p {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.products h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.products {
+    margin-top: 100px;
+}
+
+.products h1 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.products p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+}
+
+.products div {
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 10px; 
+    width: 100%;
+}
+.products div img{
+    width: 32%;
+}
+.subscribe{
+    width: 100%;
+    height: 500px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color:#FF00000D ;
+}
+.subscribe h1{
+    color: #070211;
+    margin-bottom: 0;
 font-family: Merriweather;
-font-size: 25px;
+font-size: 30px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
 }
-.coming-soon .first p{
+.subscribe p{
     color: rgba(7, 2, 17, 0.60);
-
+width: 500px;
+text-align: center;
 font-family: Inter;
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
-}
-.coming-soon .third {
-    padding-left: 30px;
-
-}
-.coming-soon .third h1{
-    color: #F00;
-margin: 0;
-font-family: Inter;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.coming-soon .third p{
-    color: rgba(7, 2, 17, 0.60);
-
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-}
-.coming-soon .third img{
-    width: 50px;
-    margin-top: 20px;
+line-height: 20px;
 }
