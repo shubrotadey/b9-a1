@@ -145,6 +145,7 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FF00000D;
 
 }
 
@@ -347,4 +348,33 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px;
+}
+footer {
+    background-color: #070211;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 30px;
+}
+footer .first p{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+width: 200px;
+}
+footer .first{
+    display: flex;
+    justify-content: space-between;
+}
+footer .second img{
+    width: 30px;
+    
+}
+footer .second{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
 }
